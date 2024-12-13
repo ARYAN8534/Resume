@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Vishu01Image from './Image/Vishu01.jpg'; // Replace with the image you want to use
+import Vishu02Image from './Image/Vishu02.jpg'; // Replace with the image you want to use
 
 function App() {
   return (
@@ -8,40 +8,50 @@ function App() {
       {/* Sidebar */}
       <div className="sidebar">
         <div className="profile-section">
-          <img src={Vishu01Image} alt="Profile" className="profile-image" />
+          <img src={Vishu02Image} alt="Profile" className="profile-image" />
           <h2 className="name">Aryan Saini</h2>
-          <p className="contact">8534013439</p>
-          <p className="contact">aryansaini853401@gmail.com</p>
-          <p className="contact">LinkedIn</p>
+          <p className="contact">Mobile No: 8534013439</p>
+          <p className="contact">Email Id: aryansaini853401@gmail.com</p>
+          
         </div>
         <div className="skills-section">
           <h3>SKILLS</h3>
           <ul>
-            <li><strong>Web Development:</strong> HTML, CSS, JavaScript, React, Node.js</li>
-            <li><strong>Databases:</strong> MySQL</li>
-            <li><strong>Tools:</strong> Git, Github</li>
-            <li><strong>Others:</strong> Data Structures, Algorithms, Object-Oriented Programming</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVA SCRIPT</li>
+            <li>JQUERY</li>
+            <li>REACT</li>
+            <li>AJAX</li>
+            <li>MYSQL</li>
+            <li>NODE.JS</li>
           </ul>
         </div>
       </div>
 
       {/* Main Content */}
       <div className="main-content">
-        <section className="objective">
-          <h3>OBJECTIVE</h3>
-          <p>
-            Aspiring IT professional with a strong foundation in computer science and hands-on experience
-            in software development through academic projects. Eager to contribute innovative solutions and
-            grow in a dynamic tech environment.
-          </p>
-        </section>
+      <section className="objective">
+  <h3>OBJECTIVE</h3>
+  <p>
+ 
+    I am an aspiring IT professional with a strong background in computer science. I have worked on software development through academic projects and am eager to apply my skills in a real-world setting. I enjoy building websites that are easy to use and work well on different devices. I am excited to keep learning and improving my skills in web development.
+  
+
+  </p>
+</section>
+
 
         <section className="education">
           <h3>EDUCATION</h3>
           <p>
-            <strong>BTech in Computer Science and Engineering</strong> <br />
-            ABC Institute of Technology, New Delhi — Jun, 2019 - Jun, 2023 <br />
-            Graduated with 8.5 CGPA
+            <strong>Bachelor of Computer Applications (BCA)</strong> <br />
+            Mangalayatan University - Current, Aligarh — Jan, 2023 - Jun, 2026 <br />
+            Graduated with 8.0 CGPA <br /><br />
+            <strong>12th Grade - UP Board</strong> <br />
+            NJI College, Saharanpur — 2020, 66.33% <br /><br />
+            <strong>10th Grade - UP Board</strong> <br />
+            NJI College, Saharanpur — 2018, 77.33%
           </p>
         </section>
 
@@ -50,40 +60,45 @@ function App() {
           <ul>
             <li>Java Script Programming Certification</li>
             <li>Web Development with React</li>
+            <li>Certified in MySQL Database Management</li>
+            <li>Full Stack Web Development Bootcamp</li>
           </ul>
         </section>
 
         <section className="internships">
           <h3>INTERNSHIPS</h3>
-          <p><strong>Software Development Intern</strong> at Okh Soft Solutions, Saharanpur — Apirl, 2024 - March, 2025git --version
-</p>
+          <p><strong>Software Development Intern</strong> at Ok Soft Solution, Saharanpur — Apirl, 2024 - March, 2025</p>
           <ul>
             <li>Assisted in developing and testing a client project using Python and Django.</li>
             <li>Collaborated with a team of 5 to streamline the deployment process.</li>
+            <li>Worked on improving the application performance and optimizing backend processes.</li>
           </ul>
         </section>
 
         <section className="projects">
-          <h3>ACADEMIC PROJECTS</h3>
-          <p><strong>Inventory Management System (Final Year Project)</strong></p>
-          <ul>
-            <li>Developed a web-based application to manage inventory for small businesses using Java and MySQL.</li>
-            <li>Implemented features like product tracking, order management, and sales reporting.</li>
-          </ul>
-          <p><strong>Personal Blog Website</strong></p>
-          <ul>
-            <li>Designed and developed a personal blog using React and Node.js.</li>
-            <li>Integrated a user-friendly CMS and implemented SEO best practices.</li>
-          </ul>
-        </section>
+  <h3>ACADEMIC PROJECTS</h3>
 
-        <section className="activities">
-          <h3>EXTRACURRICULAR ACTIVITIES</h3>
-          <ul>
-            <li>Member of the Computer Science Club, ABC Institute of Technology.</li>
-            <li>Volunteered in 'Code for Good' event, developing software solutions for non-profits.</li>
-          </ul>
-        </section>
+  <p><strong>Chess Game</strong></p>
+  <ul>
+    <li>Developed a fully functional chess game using JavaScript and HTML5 Canvas.</li>
+    <li>Implemented game logic, player turns, and a user-friendly interface for playing the game.</li>
+  </ul>
+
+  <p><strong>Memory Matching Game</strong></p>
+  <ul>
+    <li>Created a memory matching game using JavaScript, HTML, and CSS for a fun and interactive user experience.</li>
+    <li>Designed the game layout with cards that flip upon interaction, requiring players to match pairs.</li>
+  </ul>
+
+  <p><strong>Typing Speed Project</strong></p>
+  <ul>
+    <li>Implemented features to display words per minute (WPM), errors, and time taken to type.</li>
+    <li>Introduced a random key typing feature to further test and improve typing speed and accuracy.</li>
+  </ul>
+</section>
+
+
+       
       </div>
     </div>
   );

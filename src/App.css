@@ -15,6 +15,10 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
+.resume-container, p {
+
+  font-family: center;
+}
 
 .sidebar {
   width: 30%;
@@ -49,16 +53,20 @@ body {
 .skills-section h3 {
   border-bottom: 2px solid #fff;
   padding-bottom: 5px;
+  text-align: center;
 }
 
 .skills-section ul {
-  list-style: none;
+  font-family: center; 
   padding: 0;
 }
 
 .skills-section li {
-  margin: 10px 0;
+  margin: 15px 0;
+ 
+  margin-left: 30px; /* Adds space between the list items */
 }
+
 
 .main-content {
   width: 70%;
