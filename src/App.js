@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Vishu01Image from './Image/Vishu01.jpg'; // Replace with the image you want to use
+// Replace with the image you want to use
 
 function App() {
   return (
