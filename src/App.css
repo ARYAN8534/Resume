@@ -1,3 +1,4 @@
+/* General Styles */
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
@@ -8,6 +9,7 @@ body {
 
 .resume-container {
   display: flex;
+  flex-direction: row;
   max-width: 1000px;
   margin: 20px auto;
   background: white;
@@ -15,11 +17,8 @@ body {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
-.resume-container, p {
 
-  font-family: center;
-}
-
+/* Sidebar */
 .sidebar {
   width: 30%;
   background-color: #003d7a;
@@ -46,10 +45,6 @@ body {
   font-size: 1.5rem;
 }
 
-.contact {
-  margin: 5px 0;
-}
-
 .skills-section h3 {
   border-bottom: 2px solid #fff;
   padding-bottom: 5px;
@@ -57,17 +52,15 @@ body {
 }
 
 .skills-section ul {
-  font-family: center; 
   padding: 0;
 }
 
 .skills-section li {
   margin: 15px 0;
- 
-  margin-left: 30px; /* Adds space between the list items */
+  margin-left: 30px;
 }
 
-
+/* Main Content */
 .main-content {
   width: 70%;
   padding: 20px;
@@ -88,4 +81,60 @@ ul {
   list-style-type: disc;
   margin: 0;
   padding-left: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .resume-container {
+    flex-direction: column; /* Stack sidebar and content vertically */
+    margin: 10px;
+  }
+
+  .sidebar,
+  .main-content {
+    width: 100%; /* Full width for smaller devices */
+  }
+
+  .profile-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .name {
+    font-size: 1.3rem;
+  }
+
+  .skills-section li {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-container {
+    margin: 5px;
+  }
+
+  .profile-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .name {
+    font-size: 1.1rem;
+  }
+
+  .skills-section h3,
+  section h3 {
+    font-size: 1rem;
+    text-align: left;
+  }
+
+  .skills-section li {
+    font-size: 0.9rem;
+    margin-left: 5px;
+  }
+
+  .main-content {
+    padding: 10px;
+  }
 }

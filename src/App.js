@@ -69,9 +69,9 @@ function App() {
           <h3>INTERNSHIPS</h3>
           <p><strong>Software Development Intern</strong> at Ok Soft Solution, Saharanpur — Apirl, 2024 - March, 2025</p>
           <ul>
-            <li>Assisted in developing and testing a client project using Python and Django.</li>
-            <li>Collaborated with a team of 5 to streamline the deployment process.</li>
-            <li>Worked on improving the application performance and optimizing backend processes.</li>
+            <li>Developed and maintained web applications using React.js, HTML, CSS, and JavaScript during training at OK Soft Solutions.</li>
+            <li>Collaborated with peers to build interactive and responsive UI components, ensuring seamless user experience.</li>
+            <li>Worked on integrating dynamic features like form handling, routing, and state management to improve functionality.</li>
           </ul>
         </section>
 
